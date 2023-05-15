@@ -289,3 +289,21 @@ body {
     }
   }
   
+
+  /* Styles for tablets */
+  @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
